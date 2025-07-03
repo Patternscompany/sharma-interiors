@@ -47,7 +47,7 @@ h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 400;
-	font-family: "Aldrich", sans-serif;
+	/* font-family: "Aldrich", sans-serif; */
 }
 
 h1 {
@@ -117,19 +117,23 @@ ol {
 
 .section-title span {
 	color: #dfa667;
-	font-size: 16px;
+	font-size: 25px;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	display: block;
-	margin-bottom: 12px;
+	margin-bottom: 5px;
+	text-align: center;
+	margin: -30px;
 }
 
 .section-title h2 {
-	font-size: 42px;
+	font-size: 35px;
 	color: #111111;
 	line-height: 50px;
 	text-transform: uppercase;
+	text-align: center;
+	padding: 20px;
 }
 
 .set-bg {
@@ -1535,6 +1539,7 @@ ol {
 .about__pic__inner {
 	position: relative;
 	display: inline-block;
+	
 }
 
 .about__pic__inner:after {
@@ -1546,6 +1551,7 @@ ol {
 	border: 15px solid rgba(185, 175, 134, 0.2);
 	content: "";
 	z-index: -1;
+	
 }
 
 .about__page__services__text {
@@ -2442,7 +2448,7 @@ ol {
 }
 
 .contact__text .section-title {
-	margin-bottom: 12px;
+	/* margin-bottom: 12px; */
 }
 
 .contact__text p {
