@@ -189,3 +189,20 @@
     });
 
 })(jQuery);
+
+/*------------
+Contact US
+--------------*/
+ document.getElementById("contactForm").addEventListener("submit", function(e) {
+            const checkbox = document.getElementById("notRobot");
+            const checkboxError = document.getElementById("checkboxError");
+
+            if (!checkbox.checked) {
+                e.preventDefault();
+                checkboxError.textContent = "Please confirm you're not a robot!";
+            } else {
+                checkboxError.textContent = "";
+                alert("Form submitted successfully!");
+                // Send form data to server here
+            }
+        });
