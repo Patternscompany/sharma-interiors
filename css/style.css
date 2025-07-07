@@ -319,6 +319,8 @@ ol {
 
 .header__logo a {
 	display: inline-block;
+	height: 30px;
+	width: 100%;
 }
 
 .header__menu {
@@ -418,7 +420,7 @@ ol {
 
 .header__widget span {
 	font-size: 14px;
-	font-family: "Aldrich", sans-serif;
+	/* font-family: "Aldrich", sans-serif; */
 	color: #b7b7b7;
 	display: block;
 	margin-bottom: 10px;
@@ -1262,6 +1264,7 @@ ol {
 
 .footer {
 	padding-top: 90px;
+	background-color: #000;
 }
 
 .footer__top {
@@ -3269,4 +3272,8 @@ ol {
     .goals, .challenges {
         flex: 1 1 45%;
     }
+}
+
+.header{
+	/* background-color: #000; */
 }
