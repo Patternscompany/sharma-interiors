@@ -1666,6 +1666,44 @@ ol {
     Blog
 -----------------------*/
 
+.budget-content-box {
+  background-color: #ffffff;
+  padding: 50px 40px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+.budget-content-box h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.budget-content-box p {
+  font-size: 17px;
+  color: #7a7a7a;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.subscribe-btn {
+  display: inline-block;
+  background-color: #d1961b;
+  color: #fff;
+  padding: 14px 32px;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  background-color: #b78010;
+}
+
 .blog {
 	padding-top: 120px;
 	padding-bottom: 120px;
