@@ -1558,7 +1558,7 @@ ol {
 }
 
 .about__page__services__text {
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 /*---------------------
@@ -2483,6 +2483,126 @@ ol {
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
+ .hero-section {
+      display: flex;
+      height: 90vh;
+    }
+
+    .hero-text {
+      flex: 1;
+      background-color: #eeeae3;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 60px;
+    }
+
+    .hero-text h1 {
+      font-size: 42px;
+      line-height: 1.3;
+      margin: 0;
+    }
+
+    .hero-image {
+      flex: 1;
+      background-image: url('../img/blog/FD3.jpg');/* Replace with your image */
+      background-size: cover;
+      background-position: center;
+    }
+
+    .form-section {
+      display: flex;
+      padding: 60px;
+      background-color: white;
+    }
+
+    .form-image {
+      flex: 1;
+      background-image: url('../img/blog/FD4.jpg');; /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+      border-radius: 8px;
+    }
+
+    .form-container {
+      flex: 1;
+      padding: 0 40px;
+    }
+
+    .form-container h2 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    .form-container p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    form {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, select, textarea {
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      resize: vertical;
+    }
+
+    button {
+      padding: 12px;
+      background-color: #8c8575;
+      color: white;
+      border: none;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #726c5e;
+    }
+
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: #25d366;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+
+    .whatsapp-btn img {
+      width: 30px;
+      height: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .hero-section,
+      .form-section {
+        flex-direction: column;
+      }
+
+      .hero-text {
+        padding: 40px;
+      }
+
+      .form-container {
+        padding: 20px;
+      }
+    }
 
 .contact__text {
 	margin-bottom: 50px;
