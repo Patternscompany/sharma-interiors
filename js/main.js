@@ -190,3 +190,11 @@
 
 })(jQuery);
 
+/*----------------
+Contact
+--------------*/
+document.querySelectorAll(".header__menu ul li a").forEach(link => {
+  link.addEventListener("click", () => {
+    navMenu.classList.remove("show");
+  });
+});

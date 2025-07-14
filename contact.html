@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Interior Design Company">
     <meta name="keywords" content="Interior, Design, Home, Office, Residential, Commercial">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sharma | Interiors</title>
 
@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+
+    
 </head>
 
 <body>
@@ -42,7 +45,7 @@
     </div>
 
     <!-- Header Section -->
-    <header class="header"style="background-color: black;>
+    <header class="header" style="background-color: black;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">
@@ -79,10 +82,11 @@
                     </div>
                 </div>
             </div>
-            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+           <div class="canvas__open"><i class="fa fa-bars"></i></div>
+
         </div>
     </header>
-
+<br><br>
      <!-- Hero Section -->
   <section class="hero-section">
     <div class="hero-text">
@@ -92,16 +96,16 @@
       </p>
     </div>
     <div class="hero-image"></div>
+      <!-- <div class="hero-container"></div> -->
   </section>
-
-  <!-- Inquiry Form Section -->
+ <!-- Inquiry Form Section -->
   <section class="form-section">
     <div class="form-image"></div>
     <div class="form-container">
       <h2>Make an Inquiry</h2>
       <p>Connect with the Sharma Interiors team by filling out the form below. We’ll guide you with personalized solutions tailored for your home, office, or commercial space.</p>
 
-      <form>
+<form>
         <input type="text" placeholder="Your Name *" required>
         <input type="email" placeholder="Your Email Address *" required>
         <input type="text" placeholder="Contact Number *" maxlength="10" required>
@@ -330,7 +334,20 @@
         </div>
     </div>
 </footer>
-    
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleBtn = document.querySelector(".canvas__open");
+    const menu = document.querySelector(".header__menu ul");
+
+    if (toggleBtn && menu) {
+      toggleBtn.addEventListener("click", function () {
+        menu.classList.toggle("show");
+      });
+    }
+  });
+</script>
+
+
 </body>
 
 
